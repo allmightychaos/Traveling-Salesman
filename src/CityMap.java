@@ -24,7 +24,6 @@ public class CityMap {
 
         System.out.println("Kürzeste Strecke: " + routeToString(shortestPair.route) +
                 "\nDistanz: " + (Math.round(shortestPair.distance * 100.0) / 100.0) + " km");
-
         return shortestPair.route;
     }
 

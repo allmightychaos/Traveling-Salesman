@@ -12,7 +12,6 @@ public class Main {
 
         List<City> shortestRoute = cityMapAustria.findShortestRoute(false);
 
-        System.out.println(shortestRoute);
         TravelingSalesmanWindow.showWindow(shortestRoute);
 
         /*
